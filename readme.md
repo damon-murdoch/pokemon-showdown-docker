@@ -37,5 +37,5 @@ A list of future planned changes are listed below.
 
 ### Problems or improvements
 If you have any suggested fixes or improvements for this project, please 
-feel free to open an issue [here](issues).
+feel free to open an issue [here](../issues).
 
