@@ -22,9 +22,9 @@ cd pokemon-showdown-docker/build
 ```
 
 ### Launching the Container
+Please see below for an example docker run configuration.
 
 ```
-#!/bin/bash
 docker run -it -d \
   --name pokemon-showdown \
   -p 8000:8000 \
