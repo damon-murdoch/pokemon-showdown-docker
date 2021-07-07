@@ -1,6 +1,6 @@
 # pokemon-showdown-docker
 ## A dockerized container for the Pokemon Showdown! Web Server
-### Created by Damon Murdoch 
+### Developed by Damon Murdoch ([@SirScrubbington](https://twitter.com/SirScrubbington))
 
 ## Description
 A dockerized container for the Pokemon Showdown! Web Server. This container is in development, and will be given wider documentation as it is developed.
