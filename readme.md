@@ -32,6 +32,8 @@ docker run -it -d \
   scrubbs/pokemon-showdown-docker
 ```
 
+#### Argument Key Table
+
 | Argument     | Action | 
 | ---------    | ------ |
 | -p 8000:8000 | Server web interface. Can be mapped to any IP address externally. If you modify the port in the server settings, be sure to update the internal port here too. |
