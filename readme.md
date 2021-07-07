@@ -3,7 +3,7 @@
 ### Developed by Damon Murdoch ([@SirScrubbington](https://twitter.com/SirScrubbington))
 
 ## Description
-A dockerized container for the Pokemon Showdown! Web Server. This container is build upon the standard nodejs docker library image, and pulls the latest version of the  Pokemon Showdown! server image when built. It also performs a pull request on each time launching the container to ensure your server stays up to date. 
+A dockerized container for the Pokemon Showdown! Web Server. This container is build upon the standard nodejs docker library image, and pulls the latest version of the  Pokemon Showdown! server image when built. It also performs a pull request on each time launching the container to ensure your server stays up to date. This is my first docker container, so please feel free to let me know about any issues or improvements you would like to see :)
 
 ### Building the Container
 The builder is currently only tested on Ubuntu Server 20.04, however it should work on other Unix-based operating systems.
