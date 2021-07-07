@@ -6,8 +6,20 @@
 A dockerized container for the Pokemon Showdown! Web Server. This container is build upon the standard nodejs docker library image, and pulls the latest version of the  Pokemon Showdown! server image when built. It also performs a pull request on each time launching the container to ensure your server stays up to date. 
 
 ### Building the Container
+The builder is currently only tested on Ubuntu Server 20.04, however it should work on other Unix-based operating systems.
 
-
+1. Clone the repository
+```
+git clone https://github.com/damon-murdoch/pokemon-showdown-docker
+```
+2. Enter the 'build' directory
+```
+cd pokemon-showdown-docker/build
+```
+3. Run the 'build.sh' script file
+```
+./build.sh
+```
 
 ### Launching the Container
 
