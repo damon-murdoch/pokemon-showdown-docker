@@ -6,6 +6,7 @@
 #### Full Credits to Pokemon Showdown! Go to Smogon, Zarel and the rest of the development team!
 Repository Link: https://github.com/smogon/pokemon-showdown
 
+### [Docker Hub Link](https://hub.docker.com/r/scrubbs/pokemon-showdown-docker)
 ### [Container Github Repository](https://github.com/damon-murdoch/pokemon-showdown-docker)
 
 ## Description
