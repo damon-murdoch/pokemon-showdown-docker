@@ -7,7 +7,7 @@
 Repository Link: https://github.com/smogon/pokemon-showdown
 
 ### [Docker Hub Link](https://hub.docker.com/r/scrubbs/pokemon-showdown-docker)
-### [Github Link](https://github.com/damon-murdoch/pokemon-showdown-docker)
+### [Container Github Link](https://github.com/damon-murdoch/pokemon-showdown-docker)
 
 ## Description
 A dockerized container for the Pokemon Showdown! Web Server. This container is build upon the standard nodejs docker library image, and pulls the latest version of the  Pokemon Showdown! server image when built. It also performs a pull request on each time launching the container to ensure your server stays up to date. This is my first docker container, so please feel free to let me know about any issues or improvements you would like to see :)
