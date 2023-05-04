@@ -12,8 +12,8 @@ WORKDIR /app
 # Copy the setup script
 COPY . .
 
-# Install Git
-RUN ["sudo", "apt", "install", "-y", "git"]
+# Install Git Package
+RUN ["apk", "add", "git"]
 
 # Create a git repository
 RUN ["git", "init", "."]
