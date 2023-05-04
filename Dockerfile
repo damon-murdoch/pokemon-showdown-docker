@@ -9,9 +9,6 @@ EXPOSE 8000
 # Container Entrypoint
 WORKDIR /app
 
-# Copy the setup script
-COPY . .
-
 # Install Git Package
 RUN ["apk", "add", "git"]
 
