@@ -12,6 +12,9 @@ WORKDIR /app
 # Copy the setup script
 COPY . .
 
+# Install Git
+RUN ["sudo", "apt", "install", "-y", "git"]
+
 # Create a git repository
 RUN ["git", "init", "."]
 
