@@ -18,11 +18,8 @@ RUN ["git", "init", "."]
 # Set the remote repository to the showdown repository
 RUN ["git", "remote", "add", "origin", "https://www.github.com/smogon/pokemon-showdown.git"]
 
-# Pull the latest version of the software
-RUN ["git", "pull", "origin", "master"]
-
-# Set the entry point of the dockerfile
-ENTRYPOINT ["node", "pokemon-showdown"]
+# (Entry Point) Update the server repository and start the server
+ENTRYPOINT ["git" "pull" "origin" "master" "&&" "node", "pokemon-showdown"]
 
 # Specify the -c switch on exec
 CMD ["-c"]
