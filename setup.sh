@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Create a git repository
 git init .
 

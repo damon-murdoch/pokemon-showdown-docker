@@ -1,3 +1,5 @@
+#!/bin/sh
+
 # Pull the latest version of the repository
 git pull origin master
 
