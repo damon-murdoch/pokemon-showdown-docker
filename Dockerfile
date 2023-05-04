@@ -1,22 +1,19 @@
 # Starting Image
 
-# Use the NodeJS Latest Image
-FROM node:latest
+# Node Ver.18 Alpine
+FROM node:18-alpine
 
 # Default PS! Server Port
 EXPOSE 8000
 
 # Copy the setup script
-COPY script/setup.sh .
+COPY scripts .
 
 # Run the setup script
-RUN ["/bin/bash", "/setup.sh"]
-
-# Copy the runtime script
-COPY script/run.sh .
+RUN ["/bin/bash", "setup.sh"]
 
 # Set the entry point of the dockerfile
-ENTRYPOINT ["/bin/bash", "/run.sh"]
+ENTRYPOINT ["/bin/bash", "run.sh"]
 
 # Specify the -c switch on exec
 CMD ["-c"]
