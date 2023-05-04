@@ -10,10 +10,10 @@ EXPOSE 8000
 COPY scripts .
 
 # Run the setup script
-RUN ["/bin/bash", "setup.sh"]
+RUN ["setup.sh"]
 
 # Set the entry point of the dockerfile
-ENTRYPOINT ["/bin/bash", "run.sh"]
+ENTRYPOINT ["run.sh"]
 
 # Specify the -c switch on exec
 CMD ["-c"]
