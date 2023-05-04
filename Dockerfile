@@ -12,11 +12,17 @@ WORKDIR /app
 # Copy the setup script
 COPY . .
 
-# Run the setup script
-RUN ["setup.sh"]
+# Create a git repository
+RUN ["git", "init", "."]
+
+# Set the remote repository to the showdown repository
+RUN ["git", "remote", "add", "origin", "https://www.github.com/smogon/pokemon-showdown.git"]
+
+# Pull the latest version of the software
+RUN ["git", "pull", "origin", "master"]
 
 # Set the entry point of the dockerfile
-ENTRYPOINT ["run.sh"]
+ENTRYPOINT ["node", "pokemon-showdown"]
 
 # Specify the -c switch on exec
 CMD ["-c"]
